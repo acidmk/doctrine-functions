@@ -11,7 +11,7 @@ use Doctrine\ORM\Query\SqlWalker;
  * DateFunction ::= "WEEKDAY" "(" ArithmeticPrimary ")"
  * @author Florent Viel <fviel@wanadev.fr>
  */
-class DayOfWeek extends FunctionNode
+class WeekDay extends FunctionNode
 {
     public $dateExpression;
 
